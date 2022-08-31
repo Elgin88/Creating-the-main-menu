@@ -1,0 +1,2308 @@
+Unity Editor version:    2020.3.22f1 (e1a7f79fd887)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/alekseielgin/GitHub/Creating-the-main-menu
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59634
+Successfully changed project path to: /Users/alekseielgin/GitHub/Creating-the-main-menu
+/Users/alekseielgin/GitHub/Creating-the-main-menu
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/alekseielgin/GitHub/Creating-the-main-menu/Assets
+GfxDevice: creating device client; threaded=0
+2022-08-31 13:01:51.585 Unity[66134:2674553] (null) preferred device: Apple M1 (high power)
+2022-08-31 13:01:51.585 Unity[66134:2674553] Metal devices available: 1
+2022-08-31 13:01:51.585 Unity[66134:2674553] 0: Apple M1 (high power)
+2022-08-31 13:01:51.585 Unity[66134:2674553] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56134
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000425 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2855ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1159ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (365ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 41.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.750 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2751ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2376ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (228ms)
+				ProcessInitializeOnLoadAttributes (1060ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.001017 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.009509 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Creating-the-main-menu.sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Creating-the-main-menu.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{2274D55A-81A5-385B-48E7-369BB2D3412A}"
+[C# Project]   005: EndProject
+[C# Project]   006: Global
+[C# Project]   007: 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+[C# Project]   008: 		Debug|Any CPU = Debug|Any CPU
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Creating-the-main-menu.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Tests", "Unity.2D.PixelPerfect.Tests.csproj", "{8992CE5B-DF5E-43EB-ED5D-D4AEAA14DA45}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{15D9B3C0-7CAD-2510-0099-26E7F1E6103D}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Mathematics", "Unity.Mathematics.csproj", "{74ADD188-543B-CD79-9B6D-426D7FD16DD4}"
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{564357F8-FB68-2E24-F391-905F6FEE45BD}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{8992CE5B-DF5E-43EB-ED5D-D4AEAA14DA45}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.TestRunner.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.TestRunner.csproj:
+[C# Project]   014:     <ProjectGuid>{15BC8678-B834-79C1-2ACB-7736A9A06241}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.TestRunner.csproj:
+[C# Project]   014:     <ProjectGuid>{15D9B3C0-7CAD-2510-0099-26E7F1E6103D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.TestRunner</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.csproj:
+[C# Project]   014:     <ProjectGuid>{6822AF4A-A9CF-58DF-3E5B-BAFFF6F0E059}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.csproj:
+[C# Project]   014:     <ProjectGuid>{74ADD188-543B-CD79-9B6D-426D7FD16DD4}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Triangle.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Triangle.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{EF5C3628-31CC-3774-3E6C-51365AE49E63}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Triangle.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Triangle.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{C264547E-59A3-6324-5CB5-8D5343875F25}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Triangle.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.UI.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.UI.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{69AD8B36-0620-F462-E933-4E24ABAC026C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.UI.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.UI.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{EDAEF7DC-9E3A-BE50-86C2-11F355297C12}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.UI.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Timeline.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Timeline.csproj:
+[C# Project]   014:     <ProjectGuid>{F5C79A14-7E7D-1DFC-9D29-9B04161F913C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Timeline</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Timeline.csproj:
+[C# Project]   014:     <ProjectGuid>{51C01112-7415-B380-C21A-EF5AA88BE348}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Timeline</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.UI.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.UI.csproj:
+[C# Project]   014:     <ProjectGuid>{EB7D66E1-C00D-889D-A03F-92026B3D8AC2}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.UI</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEngine.UI.csproj:
+[C# Project]   014:     <ProjectGuid>{3BC4B07A-ED1D-5E63-FEB0-A429389D64F9}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEngine.UI</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.csproj:
+[C# Project]   014:     <ProjectGuid>{6969169A-5AC4-161D-F6D8-3AB9F049916D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.csproj:
+[C# Project]   014:     <ProjectGuid>{0133497B-774A-868C-8710-9F3E536752B2}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{D48641B3-46DA-A7F5-3D1A-AA14C85FF158}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{98B72BBF-42CB-083E-1C5E-F0D69CB19DED}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.IK.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.IK.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{7A234DBC-9AA5-A183-CBC7-C7B86619C82E}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.IK.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.IK.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{D93767A4-1941-136E-1CEB-F3E8FB8F0C2A}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.IK.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{02E5709D-CDCC-4298-8746-AD389C64E481}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{32D9AAB9-A93F-2CFD-0A70-A5AF15A33BDD}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.csproj:
+[C# Project]   014:     <ProjectGuid>{8A97B49A-E684-6623-91E4-87797EF14C36}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.csproj:
+[C# Project]   014:     <ProjectGuid>{A165A592-A9AE-D43C-2A58-09E909EC2A90}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 299
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Assembly-CSharp.csproj:
+[C# Project]   299:  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+[C# Project]   300:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+[C# Project]   301:  </Reference>
+[C# Project]   302:  <Reference Include="UnityEditor.iOS.Extensions.Common">
+[C# Project]   303:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.22f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Assembly-CSharp.csproj:
+[C# Project]   299:  <Reference Include="netstandard">
+[C# Project]   300:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+[C# Project]   301:  </Reference>
+[C# Project]   302:  <Reference Include="Microsoft.Win32.Primitives">
+[C# Project]   303:  <HintPath>/Applications/Unity/Hub/Editor/2020.3.22f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.Runtime.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{B4E8D25F-DD72-B6CD-8DC1-BC25F7CA7D29}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.Runtime.csproj:
+[C# Project]   014:     <ProjectGuid>{419436C6-B519-7B62-1946-0AE8B72E36AF}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.Runtime</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{AAF37B9E-690C-94CD-5AD9-04BEAD21886B}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{4F9445BB-9229-D263-500C-FB0C27659A4E}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.InternalAPIEngineBridge.001.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.InternalAPIEngineBridge.001.csproj:
+[C# Project]   014:     <ProjectGuid>{0991BF9E-0601-C021-BA12-FA49F341A745}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.InternalAPIEngineBridge.001</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.InternalAPIEngineBridge.001.csproj:
+[C# Project]   014:     <ProjectGuid>{831CA00A-9EFA-9E95-02A7-6983A68D3549}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.InternalAPIEngineBridge.001</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.TestRunner.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.TestRunner.csproj:
+[C# Project]   014:     <ProjectGuid>{EA610587-51F2-EF29-C1A3-D3CD576096E6}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.TestRunner</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.TestRunner.csproj:
+[C# Project]   014:     <ProjectGuid>{25F7AB90-0603-8D2B-F7CF-324941212A0C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.TestRunner</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.PlasticSCM.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{511DEF62-4405-5BD9-E903-BCFF8A54E282}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.PlasticSCM.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{F0BCFD9C-7697-4A7B-64E3-92D2CB419D4F}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.PlasticSCM.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.UI.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.UI.csproj:
+[C# Project]   014:     <ProjectGuid>{35D79CED-856E-1802-A9C3-EADDF2084246}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.UI</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.UI.csproj:
+[C# Project]   014:     <ProjectGuid>{448013B1-56C0-8CA4-8C27-B9C32ADEDA80}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.UI</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Services.Core.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Services.Core.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{ACC4257B-5F7C-16C8-8B76-F79DBD7CB8F3}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Services.Core.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Services.Core.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{A041A4CC-AF38-2350-D901-674D0B2CF8FC}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Services.Core.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Timeline.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{468EEF84-3F8E-47AE-E3D8-2DD343298191}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Timeline.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{3B57BCD3-C098-4AA1-96B1-60E7886C6241}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.VisualStudio.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.VisualStudio.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{EEE04544-7C51-6985-16C2-A51C91F9CB4C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.VisualStudio.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{0189C430-092F-F506-4021-E818FFAF172E}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.VisualStudio.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Psdimporter.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Psdimporter.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{567F9265-21EA-42F8-BCFD-B49D970A6837}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Psdimporter.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Psdimporter.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{4E5357EC-7AD7-3270-0833-08A9151ACB86}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Psdimporter.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{C6BC0576-AECB-4FBD-44CB-2506BBD5ADED}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{894B5AB8-FE48-6C91-F4AE-2C41A9F8FBB7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{B927C85E-A10B-B8CE-05BE-336F08444CD7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{1135244F-0BC2-0824-7733-605CB0CCF75E}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{3FE285BF-C0F5-68EB-78CD-1336C1B64350}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{4B5AFAD6-502A-300E-EDE0-B3717D265598}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.CollabProxy.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.CollabProxy.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{17D9E9E6-0368-7384-0C58-7D3552F1BD23}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.CollabProxy.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{A87C75E9-7FCE-DB93-4ED1-55AB2162E917}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.CollabProxy.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/PsdPlugin.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/PsdPlugin.csproj:
+[C# Project]   014:     <ProjectGuid>{871793E6-9AFE-6D81-F9A8-29625570F544}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>PsdPlugin</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/PsdPlugin.csproj:
+[C# Project]   014:     <ProjectGuid>{B3C9F382-9122-FD51-A1F5-7B53397C34E9}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>PsdPlugin</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/DocCodeExamples.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/DocCodeExamples.csproj:
+[C# Project]   014:     <ProjectGuid>{F41B9D65-84E4-8866-2322-B44BEF7FA98C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>DocCodeExamples</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/DocCodeExamples.csproj:
+[C# Project]   014:     <ProjectGuid>{1CFB31CF-3E87-237F-86EF-B8FF9F062F87}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>DocCodeExamples</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Path.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Path.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{C515EF6C-DB61-A46A-E22A-1B4D6DC89453}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Path.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Path.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{9054AFFA-842B-83AC-6D7A-F80065BFFD3A}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Path.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{3349E089-096D-5533-E3E4-EE6758412FEF}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{F8D9AD47-0EB0-60C8-26B9-EDD92A96A06F}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.PlasticSCM.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{91071EDF-F968-0D59-E460-0CC28C0CB8E6}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.PlasticSCM.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.PlasticSCM.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{91ED511F-D811-E708-7319-91DB227FA7B4}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.PlasticSCM.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Rider.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Rider.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{E4A1C69B-869F-D555-1767-2D37FBCB1A41}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Rider.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Rider.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{5B9D90BB-5D7D-97C0-EF6C-AF5FD67C924F}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Rider.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.UI.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{17275B67-54A2-514B-2B98-1E64A61F0423}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.UI.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/UnityEditor.UI.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{A4F50A83-0935-B147-5FF3-B664E84DDE5A}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>UnityEditor.UI.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.CollabProxy.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{3546B915-A308-9A3D-B1B5-0137E100B474}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.CollabProxy.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.CollabProxy.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{0A88F195-96E5-D77C-AC0F-BD551A30E9D5}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.CollabProxy.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.IK.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.IK.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{6A053D1C-43A0-DAEA-14B9-95851E18C7C4}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.IK.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.IK.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{966D0AB8-86CB-087A-A46B-4170ED8DE7A8}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.IK.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{438FEA5A-7C45-8FB6-49A9-034DAF56A805}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.SpriteShape.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{7CBD03E0-6C07-FB41-7ACD-F658E579E30F}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.SpriteShape.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Sprite.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Sprite.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{44753576-B5A2-C361-7A85-979CA7E047B7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Sprite.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Sprite.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{477A970B-65AF-E652-0C4B-6C2AFD01D67D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Sprite.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Tilemap.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Tilemap.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{5C7C2198-7FDE-3B69-8EC6-B088289E03C7}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Tilemap.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Tilemap.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{457A250C-DC5F-585D-29F2-6CA9326AD4D3}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Tilemap.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{1FA1549F-6CD6-5D0C-8D9A-565BB37CBEF0}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{6310E764-2F78-0F44-23FA-1A985D8C98A3}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.VSCode.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.VSCode.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{4F3324DB-90C3-1656-4D7F-AD6BEDD84628}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.VSCode.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.VSCode.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{C7409B01-95CB-E16E-1EC7-CA02DF04FFED}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.VSCode.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{06DDDA76-3DB1-95FE-4EF4-A54C0EF5F0AE}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{0CF1E90C-1B59-5128-D65F-A7DD9345D24B}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.Editor.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{E1DDB8D4-ED4D-AE3F-5D61-BB279E3700BF}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Mathematics.Editor.csproj:
+[C# Project]   014:     <ProjectGuid>{913B14BF-D05B-9FCB-EA11-78F529BE1165}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Mathematics.Editor</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Editor.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{08BBBFCB-A2CC-6D79-1C22-49DDC24B3B0B}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Editor.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.PixelPerfect.Editor.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{90F34EB1-6ED2-8089-D6C2-2432E4D27AC2}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.PixelPerfect.Editor.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{3EE1AA5F-4A5F-1A68-CDF4-A10C4BE6A990}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Common.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{ADAF53F3-F8E0-8A94-DD6F-511A93FD1B8E}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Common.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Path.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Path.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{E564B8FD-7838-8173-9EB0-D262A4989AAA}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Path.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Path.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{F480FCE4-DD97-8721-F7CC-85191AF92AAD}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Path.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.InternalAPIEditorBridge.001.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.InternalAPIEditorBridge.001.csproj:
+[C# Project]   014:     <ProjectGuid>{FE75370A-6E83-AE4C-1082-3C812154EBED}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.InternalAPIEditorBridge.001</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.InternalAPIEditorBridge.001.csproj:
+[C# Project]   014:     <ProjectGuid>{B6581BF2-57DB-1E65-F5F7-C5B93382CADC}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.InternalAPIEditorBridge.001</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Tilemap.Package.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Tilemap.Package.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{CDF7179A-D814-1D8F-9EAF-C4EE030C021F}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Tilemap.Package.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Tilemap.Package.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{FEBDE324-33EF-ECEE-5F03-F2B9B6B50D4A}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Tilemap.Package.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Psdimporter.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Psdimporter.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{03C80328-FA6B-0F2B-85F5-4FD2A6BAD983}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Psdimporter.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Psdimporter.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{F034401B-9443-4A72-8E99-407DB5204677}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Psdimporter.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Sprite.Package.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Sprite.Package.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{0174ABF4-007C-8F90-9E9D-4F1EC0A6C955}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Sprite.Package.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Sprite.Package.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{EAC7016A-5B63-66D7-3F6C-15F913AB4097}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Sprite.Package.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Nuget.NewtonsoftJson.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Nuget.NewtonsoftJson.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{48B1AD56-4967-4FD6-0BC4-77B80B019141}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Nuget.NewtonsoftJson.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.Nuget.NewtonsoftJson.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{85B1F129-A88E-B7A9-6BB3-539252F53695}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.Nuget.NewtonsoftJson.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Editor.Tests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{0DFB4396-ACE2-266C-E741-A7722BA1067C}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Editor.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.TextMeshPro.Editor.Tests.csproj:
+[C# Project]   014:     <ProjectGuid>{5ABB1547-5B07-1B34-48F0-DE40ADA5E206}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.TextMeshPro.Editor.Tests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+[C# Project] Writing /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.EditorTests.csproj because it has changed
+[C# Project] First difference on line 14
+
+[C# Project] Current /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{52E333C8-FA85-1DD1-A957-1ABFE64B681D}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+
+[C# Project] New /Users/alekseielgin/GitHub/Creating-the-main-menu/Unity.2D.Animation.EditorTests.csproj:
+[C# Project]   014:     <ProjectGuid>{8867025A-E341-577B-E293-4091560FE77B}</ProjectGuid>
+[C# Project]   015:     <OutputType>Library</OutputType>
+[C# Project]   016:     <AppDesignerFolder>Properties</AppDesignerFolder>
+[C# Project]   017:     <AssemblyName>Unity.2D.Animation.EditorTests</AssemblyName>
+[C# Project]   018:     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+2022-08-31 13:01:58.630 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e12c30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-08-31 13:01:58.634 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e040e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.6 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 2.841583 ms (FindLiveObjects: 0.125708 ms CreateObjectMapping: 0.053500 ms MarkObjects: 2.260208 ms  DeleteObjects: 0.401458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Menu.cs
+  artifactKey: Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu.cs using Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6718b7c47b2712d66c17498ce3f11551') in 0.081579 seconds 
+  Import took 0.084036 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001362 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:10:04.520 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e02680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2856ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (41ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (103ms)
+		EndReloadAssembly (2485ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (352ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1514ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (333ms)
+				ProcessInitializeOnLoadAttributes (1111ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2174 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.8 MB.
+System memory in use after: 210.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2676.
+Total: 2.178875 ms (FindLiveObjects: 0.109500 ms CreateObjectMapping: 0.040166 ms MarkObjects: 2.013875 ms  DeleteObjects: 0.014583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 461.938158 seconds.
+  path: Assets/Scripts/Menu.cs
+  artifactKey: Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu.cs using Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f852194a8d080c87263cdb41dcec58a') in 0.006458 seconds 
+  Import took 0.008710 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:11:48.026 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e10700 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.824 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2824ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (43ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2475ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1518ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (324ms)
+				ProcessInitializeOnLoadAttributes (1123ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2174 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.0 MB.
+System memory in use after: 211.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2678.
+Total: 2.362292 ms (FindLiveObjects: 0.132167 ms CreateObjectMapping: 0.044292 ms MarkObjects: 2.166209 ms  DeleteObjects: 0.018667 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103.503259 seconds.
+  path: Assets/Scripts/Menu.cs
+  artifactKey: Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu.cs using Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4fe03d3aece830f2156d68d8d3a7b8') in 0.006271 seconds 
+  Import took 0.008720 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004087 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:13:16.722 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003d26a00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2763ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2420ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (328ms)
+				ProcessInitializeOnLoadAttributes (1072ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2174 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.2 MB.
+System memory in use after: 211.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2680.
+Total: 2.730042 ms (FindLiveObjects: 0.156667 ms CreateObjectMapping: 0.044083 ms MarkObjects: 2.509833 ms  DeleteObjects: 0.018292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:15:40.199 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003d68930 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.659 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2659ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2336ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (328ms)
+				ProcessInitializeOnLoadAttributes (1040ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2174 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.4 MB.
+System memory in use after: 211.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 2.247917 ms (FindLiveObjects: 0.118459 ms CreateObjectMapping: 0.045208 ms MarkObjects: 2.068666 ms  DeleteObjects: 0.014833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 264.400509 seconds.
+  path: Assets/Scripts/Button.cs
+  artifactKey: Guid(9fd36a1e2d19643a386bf4c29a36b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Button.cs using Guid(9fd36a1e2d19643a386bf4c29a36b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912e6065adaf62a22b2a7e8cc5c4bfad') in 0.006115 seconds 
+  Import took 0.008705 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002718 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:16:34.341 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e1d570 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2691ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2351ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1416ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (322ms)
+				ProcessInitializeOnLoadAttributes (1030ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.6 MB.
+System memory in use after: 211.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2683.
+Total: 2.187333 ms (FindLiveObjects: 0.098875 ms CreateObjectMapping: 0.039917 ms MarkObjects: 2.033125 ms  DeleteObjects: 0.014458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:17:33.304 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e1aa00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.790 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2791ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2436ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (319ms)
+				ProcessInitializeOnLoadAttributes (1104ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 211.8 MB.
+System memory in use after: 212.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 2.453792 ms (FindLiveObjects: 0.156333 ms CreateObjectMapping: 0.047083 ms MarkObjects: 2.231917 ms  DeleteObjects: 0.017416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:17:58.850 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003d6a8b0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2792ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2451ms)
+			LoadAssemblies (219ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1496ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (323ms)
+				ProcessInitializeOnLoadAttributes (1102ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.0 MB.
+System memory in use after: 212.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 2.402333 ms (FindLiveObjects: 0.124209 ms CreateObjectMapping: 0.044584 ms MarkObjects: 2.214500 ms  DeleteObjects: 0.018167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 141.156446 seconds.
+  path: Assets/Scripts/Menu.cs
+  artifactKey: Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu.cs using Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecc6baa50df359ea5230e5e96aafe6f') in 0.005797 seconds 
+  Import took 0.008424 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:18:56.374 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003ee87e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2798ms)
+		BeginReloadAssembly (244ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2450ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (337ms)
+				ProcessInitializeOnLoadAttributes (1089ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.2 MB.
+System memory in use after: 212.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 2.228875 ms (FindLiveObjects: 0.101875 ms CreateObjectMapping: 0.040416 ms MarkObjects: 2.070334 ms  DeleteObjects: 0.015542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.728286 seconds.
+  path: Assets/Scripts/Menu.cs
+  artifactKey: Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu.cs using Guid(2dc32e97efa244eb69fca5acae25447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab461a2c904ad0db2a7ba83d4a63eadc') in 0.006168 seconds 
+  Import took 0.008453 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:31:12.142 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003ee60d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2668ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2343ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (324ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (339ms)
+				ProcessInitializeOnLoadAttributes (1036ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.4 MB.
+System memory in use after: 212.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 2.198542 ms (FindLiveObjects: 0.107709 ms CreateObjectMapping: 0.040333 ms MarkObjects: 2.034125 ms  DeleteObjects: 0.015584 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:36:48.352 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003ee6680 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.740 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2741ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2398ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (317ms)
+				ProcessInitializeOnLoadAttributes (1075ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.6 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2693.
+Total: 2.331708 ms (FindLiveObjects: 0.133458 ms CreateObjectMapping: 0.045041 ms MarkObjects: 2.132375 ms  DeleteObjects: 0.019833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:37:56.640 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003e10c40 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2801ms)
+		BeginReloadAssembly (255ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2442ms)
+			LoadAssemblies (235ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1498ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (322ms)
+				ProcessInitializeOnLoadAttributes (1108ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 212.8 MB.
+System memory in use after: 213.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2695.
+Total: 2.450166 ms (FindLiveObjects: 0.155917 ms CreateObjectMapping: 0.043958 ms MarkObjects: 2.232291 ms  DeleteObjects: 0.016625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001321 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:39:10.806 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003ee2ed0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2771ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2429ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (317ms)
+				ProcessInitializeOnLoadAttributes (1093ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.0 MB.
+System memory in use after: 213.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2697.
+Total: 2.375750 ms (FindLiveObjects: 0.135375 ms CreateObjectMapping: 0.043750 ms MarkObjects: 2.179125 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:40:12.374 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003ee1b90 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.792 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2793ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2446ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1497ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (324ms)
+				ProcessInitializeOnLoadAttributes (1100ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.2 MB.
+System memory in use after: 213.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 2.349834 ms (FindLiveObjects: 0.129625 ms CreateObjectMapping: 0.042250 ms MarkObjects: 2.159833 ms  DeleteObjects: 0.017167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:41:32.120 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003df26f0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.790 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2791ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2449ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (312ms)
+				ProcessInitializeOnLoadAttributes (1124ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.5 MB.
+System memory in use after: 213.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2701.
+Total: 2.395667 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.045541 ms MarkObjects: 2.200750 ms  DeleteObjects: 0.017333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001305 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:42:07.115 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003d273a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2754ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2410ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (321ms)
+				ProcessInitializeOnLoadAttributes (1079ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.6 MB.
+System memory in use after: 213.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2703.
+Total: 2.396000 ms (FindLiveObjects: 0.130083 ms CreateObjectMapping: 0.044917 ms MarkObjects: 2.202958 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:45:01.583 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003d695e0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.792 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2793ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2452ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1489ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (317ms)
+				ProcessInitializeOnLoadAttributes (1102ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (46ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.9 MB.
+System memory in use after: 214.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 2.453666 ms (FindLiveObjects: 0.167000 ms CreateObjectMapping: 0.047667 ms MarkObjects: 2.210708 ms  DeleteObjects: 0.027084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:45:14.512 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003ee49a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2755ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2414ms)
+			LoadAssemblies (212ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (315ms)
+				ProcessInitializeOnLoadAttributes (1088ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.1 MB.
+System memory in use after: 214.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2707.
+Total: 2.369041 ms (FindLiveObjects: 0.121292 ms CreateObjectMapping: 0.043375 ms MarkObjects: 2.187875 ms  DeleteObjects: 0.015792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:45:27.256 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003ee7090 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.793 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2794ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2446ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1498ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (324ms)
+				ProcessInitializeOnLoadAttributes (1101ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.2 MB.
+System memory in use after: 214.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2709.
+Total: 2.395833 ms (FindLiveObjects: 0.142125 ms CreateObjectMapping: 0.046666 ms MarkObjects: 2.188000 ms  DeleteObjects: 0.018167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:46:12.453 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003d69500 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2801ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (39ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2454ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1511ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (316ms)
+				ProcessInitializeOnLoadAttributes (1122ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (45ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.4 MB.
+System memory in use after: 214.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2711.
+Total: 2.368792 ms (FindLiveObjects: 0.120250 ms CreateObjectMapping: 0.044417 ms MarkObjects: 2.187791 ms  DeleteObjects: 0.015417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:46:57.386 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003df3790 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.657 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2657ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (38ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (2325ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (1423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (314ms)
+				ProcessInitializeOnLoadAttributes (1042ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.6 MB.
+System memory in use after: 214.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 2.207583 ms (FindLiveObjects: 0.108958 ms CreateObjectMapping: 0.040750 ms MarkObjects: 2.044042 ms  DeleteObjects: 0.013125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-08-31 13:47:10.860 Unity[66134:2674553] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003d26a00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.814 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2815ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (36ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2475ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1492ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (326ms)
+				ProcessInitializeOnLoadAttributes (1101ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2173 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.3 MB.
+System memory in use after: 215.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 2.236958 ms (FindLiveObjects: 0.119542 ms CreateObjectMapping: 0.041458 ms MarkObjects: 2.061375 ms  DeleteObjects: 0.013708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
